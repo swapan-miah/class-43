@@ -1,0 +1,19 @@
+.container
+{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+}
+
+.container h2 
+{
+    font-size: 32px;
+    letter-spacing: 0.31px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+}
+.container h2 span 
+{
+    border-left: 3px solid #FF9900;
+    padding-left: 10px;
+}

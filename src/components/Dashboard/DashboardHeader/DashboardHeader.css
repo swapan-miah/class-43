@@ -1,0 +1,28 @@
+
+.left
+{
+    min-height: 100vh;
+    width: 220px;
+    background-color: white;
+    border-right: 1.5px solid #1C2B35;
+    text-align: center;
+    position: fixed;
+}
+.dashboard, button
+{
+    font-family: 'popins', sans-serif;
+}
+.profile 
+{
+    height: 50px;
+    width: 50px;
+    border: 1.5px solid #FF9900;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.active button
+{
+    color: white;
+    background-color: #FF9900;
+    border-color: #FF9900;
+}

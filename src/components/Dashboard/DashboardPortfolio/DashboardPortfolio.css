@@ -1,0 +1,65 @@
+.cont 
+{
+    margin-left: 220px;
+    padding: 1rem;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.img-h
+{
+    border: 2px solid #FF9900;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img-h img 
+{
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.effect
+{
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff9900ae;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.effect p 
+{
+    font-weight: 700;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.img-h:hover .effect
+{
+    opacity: 1;
+}
+.img-h:hover img 
+{
+    transform: scale(1.2);
+}
+
+.img-h:hover
+{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
